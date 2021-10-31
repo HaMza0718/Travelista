@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelista</title>
+     <!-- google-fontLink -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
+     <!--fontAwesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ 
+     <!-- css/bootstrap link  -->
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-betwwen align-items-center">
+                <div class="logo" data-aos="flip-down">
+                    Travelista<span class="aeroplane">✈</span>
+                </div>
+                <button type="button" class="nav-toggler">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav id="nav" class="nav">
+                    <ul>
+                        <li class="nav-items"><a href="#home">Home</a></li>
+                        <li class="nav-items"><a href="#about">About</a></li>
+                        <li class="nav-items"><a href="#packages">Packages</a></li>
+                        <li class="nav-items"><a href="#reviews">Reviews</a></li>
+                        <li class="nav-items"><a href="#blog">Blog</a></li>
+                        <li class="nav-items"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- HomeSection -->
+    <section class="home-section" id="home">
+        <div class="home-bg"></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="home-text" data-aos="zoom-in-up">
+                    <h1>TO TRAVEL IS TO LIVE</h1>
+                    <p>Traveling leaves you speechless then turns you into a storyteller. Just Go. Go see all the beauty in the world.</p>
+                    <button class="btn btn-default"><a href="#packages">Explore Now</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- AboutSection -->
+    <section class="about-section sec-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>About Us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-text" data-aos="flip-right">
+                    <h3>Welcome To Travelista🛫</h3>
+                    <h4>It feels good to be lost in the right direction</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deserunt sapiente, doloribus ut et voluptas voluptatem. Ratione illum dolor rerum eveniet numquam consequatur fuga accusantium?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia tempora similique rerum cum, nam voluptatum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, in!</p>
+                    <button class="btn btn-default"><a href="#packages">Check Our Packages</a></button>
+                </div>
+                <div class="about-img" data-aos="flip-left">
+                    <div class="img-box">
+                    <h3>5+ years experience</h3>
+                    <img src="./images/about-img.jpg" alt="about img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PackageSection -->
+    <section class="package-section sec-padding" id="packages">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                <h2>Our Packages</h2>
+            </div>
+        </div>
+        <!-- searchButtons -->
+        <div class="row"data-aos="flip-up">
+            <div class="package-tabs">
+                <button type="button" class="package-tab-item active" data-target="family">Family Tours</button>
+                <button type="button" class="package-tab-item" data-target="honeymoon">Honeymoon Tours</button>
+                <button type="button" class="package-tab-item" data-target="upcoming">Upcoming Tours</button>
+            </div>
+        </div>
+        <div data-aos="fade-down">
+        <!-- ForFamily -->
+        <div class="package-tab-content active" data-category="family">
+        <div class="package-hadding"><h2>Family Tour Packages</h2><span> / View All Packages</span></div>
+        <div class="row">
+           <div class="box-container card"> 
+            <div class="box">
+                <span class="label">Family Tour</span>
+                <div class="image">
+                    <img src="images/package-1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>New York</h3>
+                    <div class="price"> $1500 <span>For 15 Days</span> </div>
+                </div>
+            </div>
+           </div>
+           <div class="box-container card">
+            <div class="box">
+                <span class="label">Family Tour</span>
+                <div class="image">
+                    <img src="images/package-2.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Italy</h3>
+                    <div class="price"> $1500 <span>For 15 Days</span> </div>
+                </div>
+            </div>
+           </div>
+           <div class="box-container card">
+            <div class="box">
+                <span class="label">Family Tour</span>
+                <div class="image">
+                    <img src="images/package-3.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Belgium</h3>
+                    <div class="price"> $1500 <span>For 15 Days</span> </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+<!-- ForHoneymoon -->
+    <div class="package-tab-content" data-category="honeymoon">
+        <div class="package-hadding"><h2>Honeymoon Tour Packages</h2><span>/  View All Packages</span></div>
+        <div class="row">
+           <div class="box-container card">
+            <div class="box">
+                <span class="label">Honeymoon</span>
+                <div class="image">
+                    <img src="images/package-4.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Maldives</h3>
+                    <div class="price"> $1500 <span>For 1 Month</span> </div>
+                </div>
+            </div>
+           </div>
+           <div class="box-container card">
+            <div class="box">
+                <span class="label">Honeymoon</span>
+                <div class="image">
+                    <img src="images/package-5.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Switzerland</h3>
+                    <div class="price"> $1500 <span>For 1 Month</span> </div>
+                </div>
+            </div>
+           </div>
+           <div class="box-container card">
+            <div class="box">
+                <span class="label">Honeymoon</span>
+                <div class="image">
+                    <img src="images/package-6.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Bangkok</h3>
+                    <div class="price"> $1500 <span>For 1 Month</span> </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>    
+        <!-- ForUpcoming -->
+    <div class="package-tab-content" data-category="upcoming">
+        <div class="package-hadding"><h2>Upcoming Tours</h2><span>/  View All Packages</span></div>
+        <div class="row">
+           <div class="box-container card">
+            <div class="box">
+                <span class="label">Popular</span>
+                <div class="image">
+                    <img src="images/package-7.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>New Zealand</h3>
+                    <div class="price"> $1500 <span>For 1 week</span> </div>
+                </div>
+            </div>
+           </div>
+           <div class="box-container card">
+            <div class="box">
+                <span class="label">Popular</span>
+                <div class="image">
+                    <img src="images/package-8.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Australia</h3>
+                    <div class="price"> $1500 <span>For 1 week</span> </div>
+                </div>
+            </div>
+           </div>
+           <div class="box-container card">
+            <div class="box">
+                <span class="label">Popular</span>
+                <div class="image">
+                    <img src="images/package-9.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="cart-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Turkey</h3>
+                    <div class="price"> $1500 <span>For 1 week</span> </div>
+                </div>
+            </div>
+           </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </section>
+<!-- ReviewsSection -->
+<section class="review-section sec-padding" id="reviews">
+<div class="container">
+    <div class="row">
+        <div class="section-title">
+            <h2>Some Feedbacks</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="review-item" data-aos="flip-right">
+            <div class="reviewer">
+                <div class="reviewer-name">
+                    <h3>Babar</h3>
+                    <span>Happy Customer</span>
+                </div>
+                <div class="reviewer-icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto mollitia facilis labore, saepe officiis aut.</p>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="review-item" data-aos="fade-down">
+            <div class="reviewer">
+                <div class="reviewer-name">
+                    <h3>Rizwan</h3>
+                    <span>Happy Customer</span>
+                </div>
+                <div class="reviewer-icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto mollitia facilis labore, saepe officiis aut.</p>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="review-item" data-aos="flip-left">
+            <div class="reviewer">
+                <div class="reviewer-name">
+                    <h3>Sarfaraz</h3>
+                    <span>Happy Customer</span>
+                </div>
+                <div class="reviewer-icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto mollitia facilis labore, saepe officiis aut.</p>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+    <div class="review-button">
+    <button class="review-join">Join Them</button>
+    <button class="review-join">Explore More</button>
+    </div>
+</div>
+</section>
+<!-- blogSection -->
+<section class="blog-section sec-padding" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Blogs</h2>
+            </div>
+        </div>
+        <div class="row-content" data-aos="fade-down">
+            <h3>We've Worked With All Kinds Of Tourism.</h3>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, provident. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ab doloremque illo error quaerat possimus?</span>
+            <div class="blog-button">
+                <button>Book A Call <span><i class="fas fa-phone"></i></span></button>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="blog-item" data-aos="flip-right">
+                <img src="./images/blog-1.jpg" alt="">
+                <div class="blog-item-info">
+                    <p>Boat Tours & Rentals</p>
+                </div>
+            </div>
+            <div class="blog-item" data-aos="fade-up">
+                <img src="./images/blog-2.jpg" alt="">
+                <div class="blog-item-info">
+                    <p>Winter Sports Tour</p>
+                </div>
+            </div>
+            <div class="blog-item" data-aos="flip-left">
+                <img src="./images/blog-3.jpg" alt="">
+                <div class="blog-item-info">
+                    <p>Cultural Tour</p>
+                </div>
+            </div>    
+        </div>
+    </div>   
+</section>
+<!-- contactSection -->
+<section class="contact sec-padding" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="contact-img" data-aos="flip-right">
+                <div class="img-box">
+                <h3>Contact Now</h3>
+                <img src="./images/contact.jpg" alt="about img">
+                </div>
+            </div>
+            <div class="contact-text" data-aos="flip-left">
+                <div class="contact-form">
+                    <h3>Welcome To Travelista🛫</h3>
+                    <form action="">
+                        <input type="text" class="name" placeholder="Name">
+                        <input type="email" class="email" placeholder="E-mail">
+                        <input type="number" class="Contact-no" placeholder="Contact No">
+                        <input type="text" id="message" placeholder="Your Message">
+                    </form>
+                    <button class="btn btn-default">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footerSection -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <h3 id="font-change">Treat yourself with luxury</h3>
+            <div class="footer-item input">
+                <input type="text" class="email" placeholder="Email Adress">
+                <input type="password" class="password" placeholder="Password">
+                <button class="signup">SIGN UP</button>
+            </div>
+            <div class="footer-item">
+                <h3>Contact Us</h3>
+                <p>+9347-2086321</p>
+                <p>xyz@yahoo.com</p>
+            </div>
+            <div class="footer-item">
+                <h3>Follow On</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-button">
+        <a href="#"><button><i class="fas fa-arrow-circle-up"></i></button></a>
+    </div>
+</footer>
+    <script src="script.js"></script>
+    <!-- AOSlibrary -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1300,
+      });
+    </script>  
+</body>
+</html>
